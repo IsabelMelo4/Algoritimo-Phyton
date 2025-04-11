@@ -1,3 +1,5 @@
+import math
+
 n1 = float(input())
 n2 = float(input())
 n3 = float(input())
@@ -13,15 +15,14 @@ elif media < 5.0:
     print("Aluno reprovado.")
 
 elif media >= 5.0 and media <= 6.9:
-    print("Aluno em exame")
+    print("Aluno em exame.")
     nota = float(input())
-    print("Nota do exame {}".format(nota))
-    media2= (media + nota) / 2
+    print("Nota do exame: {}".format(nota))
+    media2= math.ceil(media + nota) / 2
 
     if media2 > 5.0:
         print("Aluno aprovado.")
-        media3 = (n1 + n2 + n3 + n4 + nota) // 5
-        print("Media final: {:.1f}".format(media3))
+        print ("Media final: {:.1f}".format(media2))
 
     else:
         print("Aluno reprovado.")
