@@ -1,4 +1,8 @@
+i = 1
+j = 60
 
-for i in range(1, 38, 3):
- for j in range(60, -1, -5):
-    print("I=" f'{i}' " J=" f'{j}')
+while j >= 0:
+    print("I={} j={}".format(i,j))
+    i+= 3
+    j-= 5
+   
