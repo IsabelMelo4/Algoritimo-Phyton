@@ -8,10 +8,12 @@ for i in range(testes):
     g1 = float(g1)
     g2 = float(g2)
     contador = 0
+
     while pa <= pb:
    
       pa = int(pa + (pa * g1 / 100))
       pb = int(pb + (pb * g2 / 100))
+
       contador += 1
 
     if contador > 100:

@@ -9,3 +9,4 @@ while x != 0:
     print(soma)
     x = int(input())
     
+
