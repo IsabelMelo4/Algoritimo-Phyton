@@ -2,15 +2,14 @@ nota1 = float(input())
 nota2 = float(input())
 
 while nota1 < 0.10 or nota2 < 0.10:
-      
-      if nota1 < 10 and nota2  < 10:
+       print("nota invalida")
 
-       media = (nota1+nota2) // 2
+       nota1 = float(input())
+       nota2 = float(input())
 
-       print("media = {:.2f}".format(media))
+if nota1 > 0 and nota2 > 0:
 
-      else:
-         print("nota invalida")
+    media = (nota1+nota2) // 2
 
-         nota1 = float(input())
-         nota2 = float(input())
+    print("media = {:.2f}".format(media))
+     
