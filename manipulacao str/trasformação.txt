@@ -1,0 +1,16 @@
+replace = subistitui as frases ex: replace("PYTHON", (POR), "ANDROID")
+
+upper = fica em maiusculas 
+
+lower = fica em minusculo
+
+capitalize = so o primeiro caractere fica em maiusculo, de toda a frase
+
+title = palavra por palavra fica em maiusculas
+
+strip = remove os espaços desnecessarios
+
+rstrip = so o lado direito remove os espacos
+
+lstrip = so o lado esquerdo remove os espacos
+

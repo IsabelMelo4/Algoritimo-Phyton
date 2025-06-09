@@ -1,0 +1,12 @@
+nome[9] = pega a letra que ta na casa 9 (-1)
+
+nome[9:13] = pega as letras do 9 menos o 13
+
+nome [9:13:2] = pega as letras do 9 ate o 13 pulando 2
+
+nome[:5] = vai do 0 ate o 5
+
+nome [5:] = vai do 5 ate o 0
+
+nomme[9::3] = comeca no 9 e vai ate o final mostando as letras pulando 3
+

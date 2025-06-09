@@ -1,0 +1,4 @@
+split = cada espaco ele corta e guarda em varios espacos diferentes
+
+join = junta todos os split virando somente um 
+
