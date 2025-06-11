@@ -13,4 +13,4 @@ strip = remove os espaços desnecessarios
 rstrip = so o lado direito remove os espacos
 
 lstrip = so o lado esquerdo remove os espacos
-
+ 

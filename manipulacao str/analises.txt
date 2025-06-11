@@ -2,8 +2,12 @@ len = ver o comprimento da frase, ele vai mostrar quantos caracteres tem
 
 count = contar quantas letras especificas tem. ex: frase.count("o") dai ele mostra quantos o tem, tambem posso colocar parametros ex: frase.count("o", 0 13) ele mostra quantos tem de um para o outro
 
-find =  onde ele esta, a posicao dele ex: frase.find("deo")
+find =  onde ele esta, a posicao dele ex: frase.find("deo") posso especificar o inicio e o fim frase.find("deo", 11, 13)
 
 in = saber se existe um nome na variaver ex: "curso" in frase
 
 endswith(). Este método retorna True se a string terminar com o valor especificado e False caso contrário. 
+
+startswith = ele ver o comeco
+
+strip = 
