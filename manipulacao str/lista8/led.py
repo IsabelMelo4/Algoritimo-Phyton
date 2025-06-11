@@ -1,7 +1,7 @@
 testes = int(input())
 
 for n in range(testes):
-    numeros = str(input())
+    numeros = input()
     
     soma = 0
     

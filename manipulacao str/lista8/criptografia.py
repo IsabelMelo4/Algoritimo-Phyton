@@ -1,9 +1,8 @@
 testes = int(input())
-cont = 1 
 
 for n in range(testes):
-    nome = str(input())
-    novaPalavra = " "
+    nome = (input())
+    novaPalavra = ""
 
     for letra in nome:
         if letra.isalpha():
@@ -15,7 +14,7 @@ for n in range(testes):
     novaPalavra = novaPalavra[::-1]
     metade = len(novaPalavra)//2
 
-    novaPalavra_final = " "
+    novaPalavra_final = ""
 
     for k in range(len(novaPalavra)):
         letra = novaPalavra[k]
