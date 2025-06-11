@@ -3,10 +3,9 @@ cont = 1
 
 for n in range(testes):
     nome = str(input())
-    novaPalavra = ""
+    novaPalavra = " "
 
-    for i in range(len(nome)):
-        letra = nome[i]
+    for letra in nome:
         if letra.isalpha():
             novoCaractere = chr((ord(letra) + 3))
             novaPalavra += novoCaractere
@@ -16,16 +15,16 @@ for n in range(testes):
     novaPalavra = novaPalavra[::-1]
     metade = len(novaPalavra)//2
 
-    novaPalavra_final = ""
+    novaPalavra_final = " "
 
-    for k in range(metade, len(novaPalavra)):
-        letra = novaPalavra[i]
+    for k in range(len(novaPalavra)):
+        letra = novaPalavra[k]
 
-        if i >= metade:
+        if k >= metade:
             novoCaractere = chr((ord(letra) - 1))
             novaPalavra_final += novoCaractere
         else:
             novaPalavra_final += letra
 
-print(novaPalavra_final)
+    print(novaPalavra_final)
     
