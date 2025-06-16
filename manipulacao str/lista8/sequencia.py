@@ -1,17 +1,20 @@
-nome = str(input())
-nova_palavra = " "
+import sys
 
-for i in range(len(nome)):
-          
-          letra = nome[i]
-           
-          if len(nome[i+1]) == nome.islower() :
-             
-             letra = nome[i].upper()
-             nova_palavra += letra
+for frase in sys.stdin:
+    maiusculo = False
+    novotexto = ""
 
+    for pos, letra in enumerate(frase):
+        
+        if (pos == 0 and letra.isalpha()) or letra.isalpha() and maiusculo == False :
+            novotexto += letra.upper()
+            maiusculo = not maiusculo
 
-          else:
-            nova_palavra += letra
+        elif letra.isalpha() and maiusculo == True:
+             novotexto += letra.lower()
+             maiusculo = not maiusculo
 
-print(letra)
+        else:
+             novotexto += letra
+
+    print(novotexto, end="") 

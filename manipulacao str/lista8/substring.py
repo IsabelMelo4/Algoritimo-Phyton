@@ -4,8 +4,7 @@ while True:
        
        string1 = input()
        string2 = input()
-
-
+       
        if len(string2) > len (string1):
            string1, string2 = string2, string1
        
@@ -25,5 +24,5 @@ while True:
        if not encontrou:
            print(0)
 
-    except EOFError:
+    except EOFError: 
         break
