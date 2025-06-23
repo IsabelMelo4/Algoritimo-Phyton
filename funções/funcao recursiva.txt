@@ -1,0 +1,38 @@
+def nome_da_funcao(parametro):
+    if condição_de_parada:   # 🧱 Caso base
+        return algo          # 😴 Hora de parar
+    return nome_da_funcao(valor_menor)  # 🔁 Chamada recursiva
+
+📌 Lembre da regra:
+Toda função recursiva precisa de:
+🧱 Caso base
+A condição que diz "pare agora" (if).
+
+🔁 Chamada recursiva
+A parte que repete com uma entrada mais simples ou menor.
+
+
+Se a condição de parada não for atendida, a função executa tudo que está depois do if, incluindo chamar ela mesma novamente
+ — com um valor diferente (normalmente menor ou mais simples).
+
+Como funciona na prática?
+
+Imagine essa função recursiva:
+
+
+def funcao_recursiva(x):
+    if x == 0:          # condição de parada
+        return "Parou!"
+
+    print(x) se nao, ele faz de novo 
+    return funcao_recursiva(x - 1)
+
+
+funcao_recursiva(3)
+  → imprime 3
+  → chama funcao_recursiva(2)
+      → imprime 2
+      → chama funcao_recursiva(1)
+          → imprime 1
+          → chama funcao_recursiva(0)
+              → retorna "Parou!"
