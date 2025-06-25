@@ -1,21 +1,17 @@
-def italico():      
-          
-          global novoTexto
-          global novoCaractere
+texto = input()
+novoTexto = ""
 
-          if palavra.startswith("_"):
-               novoCaractere = palavra.replace("_", "<i>",1)
-               novoTexto += novoCaractere 
+italico_aberto = False
+negrito_aberto = False
 
-          elif palavra.endswith("_"):    
-               novoCaractere = palavra.replace("_", "</i>", 1)
-               novoTexto += novoCaractere 
-          else:
-             novoTexto += novoCaractere 
+for caractere in texto:
+    if caractere == "_":
+        novoTexto += "</i>" if italico_aberto else "<i>"
+        italico_aberto = not italico_aberto
+    elif caractere == "*":
+        novoTexto += "</b>" if negrito_aberto else "<b>"
+        negrito_aberto = not negrito_aberto
+    else:
+        novoTexto += caractere
 
-palavra =(input())
-novoTexto = " "
-
-italico()
 print(novoTexto)
-
