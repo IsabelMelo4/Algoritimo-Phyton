@@ -16,7 +16,7 @@ def pA(a1, r,n):
 #A função pA é chamada com três parâmetros: a1 + r, r, e a1 - 1.
 
 #Depois que a função pA(a1 + r, r, a1 - 1) for executada e retornar um valor, esse valor será somado a a1. A operação final é então a soma de a1 com o retorno da função pA.
-
+  
 
 print(pA(45,8,10))
 
