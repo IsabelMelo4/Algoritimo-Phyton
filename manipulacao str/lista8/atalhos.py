@@ -15,3 +15,5 @@ for caractere in texto:
         novoTexto += caractere
 
 print(novoTexto)
+
+
