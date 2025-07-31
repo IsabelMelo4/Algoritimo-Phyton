@@ -3,9 +3,9 @@ def nome_da_funcao(parametro):
         return algo          # 😴 Hora de parar
     return nome_da_funcao(valor_menor)  # 🔁 Chamada recursiva
 
-📌 Lembre da regra:
+ Lembre da regra:
 Toda função recursiva precisa de:
-🧱 Caso base
+ Caso base
 A condição que diz "pare agora" (if).
 
 🔁 Chamada recursiva
