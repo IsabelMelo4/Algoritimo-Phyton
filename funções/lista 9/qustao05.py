@@ -7,4 +7,4 @@ def contagem(cont):
 
 num = int(input())
 
-contagem(num)       
+print(contagem(num))       

@@ -11,3 +11,5 @@ endswith(). Este método retorna True se a string terminar com o valor especific
 startswith = ele ver o comeco
 
 strip = remove espaços em branco 
+
+
