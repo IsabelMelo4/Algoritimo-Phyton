@@ -11,8 +11,7 @@ def e_primo(num):
         return False
     if num == 2:
         return True
-    if num %2 ==0:
-        return False
+
     
 
 def gerar_primos(cont):
@@ -20,16 +19,18 @@ def gerar_primos(cont):
      num_primo = 2
      while len(primos) < cont:
         if e_primo(num_primo):
-            primos.append(e_primo)
-        num += 1
+            primos.append(num_primo)
+        num_primo += 1
      return primos
-
-primos = gerar_primos
 
 def soma(lista):
     return sum(lista)
 
 contador = 10
-print(gerar_primos(contador))
-print(soma(primos))
+
+primos = gerar_primos(contador)
+contador = gerar_primos(contador)
+print(gerar_primos(primos))
+
+
 
