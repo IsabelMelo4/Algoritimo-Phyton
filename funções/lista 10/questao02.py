@@ -6,7 +6,12 @@ def pA(a1, r,n):
     if n == 1:
         return 1 
     
-    return a1 + pA(a1 + r, r, n-1)
+    return a1 + pA(a1 + r, r, n-1)      
+
+
+
+
+    
 
 #linha de resursão: ele vai retornar a função com novos parametros 
 #a1 é uma variável (provavelmente um número ou um valor que foi passado como argumento para a função onde essa linha de código está).
