@@ -13,7 +13,6 @@ def e_primo(num):
         return True
 
     
-
 def gerar_primos(cont):
      primos  = []
      num_primo = 2
