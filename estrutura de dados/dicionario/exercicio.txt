@@ -1,0 +1,12 @@
+# fazer um progama que guarde a media e o nome e a situação do aluno 
+
+#criar um progama onde cada um joga um dado e guarde em um dicionario no final, coloque em ordem 
+
+#criar um progama que leia nome, ano de nascimento, e a carteira de trabalho e cadaste dentro do dicionario com a idade 
+# se a ctps for diferente de 0, mostrar o ano de contratação, salario e aposentadoria
+
+#criar um progama de aproveitamento de futebol, ler nome e quantaas partidas ele jogou e guardar no dict 
+
+# ler nome sexo e idade de varias pessoas guardando dentro de um dicionario, quantas pessoas foram cadastradas, a media de
+#idade do grupo, quantas mulheres, e quantas pessoas foram cadastradas 
+
