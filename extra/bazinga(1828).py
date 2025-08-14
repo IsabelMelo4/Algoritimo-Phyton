@@ -1,9 +1,7 @@
-def caso1 (entrada1, entrada2):
-    return "tesoura"
+pecas = []
 
-testes = int(input())
+pecas_retiradas = input("Digite as peças separadas por espaço: ").split()
+pecas.extend(pecas_retiradas)  # <-- isso espalha os elementos dentro de pecas
 
-for i in range(testes):
-    sheldon, raj = map(str, input().split())
-    print(sheldon, raj)
-
+pecas.reverse()
+print(pecas)

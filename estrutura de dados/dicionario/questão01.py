@@ -13,5 +13,7 @@ else:
     aluno["situação"] = "Aprovado"
 
 media.append(aluno)
-for e in media:
- print(e)
+
+for k, v in aluno.items():
+    print(f"{k} é igual a {v}")
+
